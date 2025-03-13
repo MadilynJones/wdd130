@@ -1,16 +1,16 @@
-.callout {
-    width: max-content;
+/*.callout {
+    width: 450px;
     margin: 10px;
-    border: 10px;
-    padding: auto;
+    border: 10px solid red;
+    padding: 10px;
     background-color: blueviolet;
     color: azure;
 }
 
 .callout img {
-    position: 5.9;
-    margin: auto;
-    border: 10px;
+    float: right;
+    margin: 10px;
+    border: 10px solid blue;
     padding: 10px;
     width: auto;
     height: auto;
@@ -22,8 +22,40 @@ blockquote {
 
 cite {
     display: block;
-    border-top: 10px;
+    border-top: 10px dotted green;
     padding-top: 10px;
-    text-align: center;
-    font-size: large;
+    text-align: right;
+    font-size: small;
+}*/
+
+.callout {
+	max-width: 400px;
+	margin: 10px;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 15px;
+	background-color: #247;
+	color: #fff;
+}
+
+.callout img {
+	float: right;
+	margin: 0 0 10px 15px;
+	border: 1px solid #000;
+	padding: 3px;
+	background-color: #bbb;
+	width: 100px;
+	height: auto;
+	
+}
+
+blockquote {
+	margin: 0;
+}
+
+cite {
+	display: block;
+	border-top: 1px dotted #fff;
+	padding-top: 3px;
+	text-align: right;
+	font-size: smaller;
 }
