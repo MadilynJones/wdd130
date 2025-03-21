@@ -26,17 +26,21 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid green;
-    padding: 1rem;
-    background-color: bisque;
-    color: rgb(54, 0, 0);
     text-align: center;
+    position: relative;
 }
+
+aside h2{
+    position: absolute;
+    top: auto;
+    left: auto;
+}
+
 
 aside img {
     width: 200px;
@@ -55,4 +59,14 @@ footer {
 
 p {
     padding: 0;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid green;
+    padding: 1rem;
+    background-color: bisque;
+    color: rgb(54, 0, 0);
 }
