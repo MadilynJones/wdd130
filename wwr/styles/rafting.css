@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@293&family=Roboto+Slab:wght@503&display=swap');
+
 :root {
-    color: 00778F;
-    background-color: 24C4E4;
+    --color: rgb(14, 161, 224);
+    --color: rgb(49, 56, 198);
 }
 
 * {
@@ -8,13 +10,28 @@
     height: auto;
 }
 
-header img{
+header img {
     height: 5rem;
     width: auto;
 }
 
-article{
+article {
     position: absolute;
+}
+
+
+h1, h2 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 503;
+    font-style: normal;
+}
+
+p {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 293;
+    font-style: normal;
 }
 
 .sociallinks {
