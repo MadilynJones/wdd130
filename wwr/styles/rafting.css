@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@293&family=Roboto+Slab:wght@503&display=swap');
 
 :root {
-    --color: rgb(14, 161, 224);
-    --color: rgb(49, 56, 198);
+    --main: rgb(14, 161, 224);
+    --second: rgb(49, 56, 198);
+    --prim: rgb(122, 240, 68);
+    --two: rgb(139, 93, 8);
 }
 
 * {
-    width: 90%;
+    width: 95%;
+    margin: 0 auto;
+    padding: auto;
     height: auto;
 }
 
@@ -15,44 +19,75 @@ header img {
     width: auto;
 }
 
-article {
-    position: absolute;
+img{
+    width: 30%;
+    height: auto;
 }
 
+article img{
+    float: right;
+    width: 12rem;
+    padding-left: 5px;
+}
+
+article p{
+    color: var(--prim);
+}
+
+footer img{
+    width: 5%;
+    padding-right: 10px;
+}
+
+section{
+    padding: 30px;
+}
 
 h1, h2 {
     font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
     font-weight: 503;
     font-style: normal;
+    padding: 20px;
+    color: var(--main);
 }
 
 p {
     font-family: "Oswald", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 293;
     font-style: normal;
+    color: var(--second);
 }
 
 .sociallinks {
     text-decoration: none;
 }
 
-.hero {
+div.hero{
     position: relative;
 }
 
-.hero img {
+.hero h1, article {
+    position: absolute;
+    color: var(--two);
+    margin-left:10%;
+    width:80%;
+}
+
+.hero h1{
+    padding: 10px 0;
+    top: 10px;
+    text-align: center;
+    background-color: rgba(255, 200, 81, 0.285);
+}
+
+.hero article{
+    top: 120px;
+    background-color: rgba(32, 255, 2, 0.285);
+    padding: 5px;
+}
+
+.heroimg{
     display: block;
     width: 100%;
-    height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-}
-
-.small {
-    float: right;
-    height: 10px;
+    height: 20rem;
 }
