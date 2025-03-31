@@ -145,6 +145,7 @@ article {
     border: red solid;
     display: grid;
     grid-template: 70px 1fr 3fr / 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
     height: 250px;
 }
 
