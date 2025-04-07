@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <header>
+        <h1>Form Thing</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contacts</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                <input type="text" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">Fav</label>
+                <select name="browser" id="browser">
+                    <option value="a">a</option>
+                    <option value="e">e</option>
+                    <option value="i">i</option>
+                </select>
+                <label for="pet">Pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">Lived</label>
+                <textarea name="feedback" id="feedback" rows="3" placeholder="Enter Here"></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright Stuff</p>
+    </footer>
+</body>
+
+</html>
