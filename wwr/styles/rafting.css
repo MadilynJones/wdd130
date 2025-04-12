@@ -217,7 +217,7 @@ article {
     border: 3px solid var(--prim);
 }
 
-.table h2{
+.table h2 {
     grid-row: 1/2;
 }
 
@@ -230,6 +230,6 @@ h3 {
     color: var(--second);
 }
 
-.table p{
+.table p {
     grid-column: 3/4;
 }
